@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://images.newscientist.com/wp-content/uploads/2017/06/16112020/gettyimages-541385812.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#body{
+    margin: 13em auto;
+    text-align: center;
+}
+#screen #min,#sec,#milisec{
+    display: inline-block;
+    background-color: rgba(51, 51, 51, 0.678);
+    width: 200px;
+    color: rgb(206, 206, 206);
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(255, 213, 149);
+    justify-content: space-around;
+}
+#sec {
+    color: rgb(143, 143, 143);
+}
+#milisec {
+    color: rgb(253, 27, 27) !important;
+}
+#stop{
+    background-color: rgba(226, 11, 11, 0.705) !important;
+}
+#reset {
+    background-color: rgba(245, 149, 24, 0.699) !important;
+}
+.btn {
+    margin: 6px 1em;
+    width: 130px;
+    background-color: rgba(14, 243, 83, 0.87) !important;
+    border: none !important;
+}
+.btn:hover {
+    box-shadow: 5px 4px 5px rgb(174, 235, 7);
+}
+#heading {
+    margin: 0px 0px 1em 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: underline;
+    color: rgb(243, 161, 8);
+    text-shadow: 1.5px 2px 4px rgb(5, 184, 255);
+}
